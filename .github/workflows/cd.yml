@@ -15,4 +15,4 @@ jobs:
         with:
           go-version: "1.25.1"
       - name: Build app
-        run: ./script/buildprod.sh
+        run: script/buildprod.sh
